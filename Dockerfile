@@ -1,4 +1,4 @@
-FROM debian
+FROM kalilinux/kali-rolling
 ARG NGROK_TOKEN
 ARG REGION=ap
 ENV DEBIAN_FRONTEND=noninteractive
