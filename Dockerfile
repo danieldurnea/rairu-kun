@@ -1,5 +1,5 @@
 FROM kalilinux/kali-rolling
-ARG NGROK_TOKEN
+ARG NGROK_AUTH_TOKEN
 ARG REGION=ap
 ARG SSH_PASS=craxid
 ENV DEBIAN_FRONTEND=noninteractive
