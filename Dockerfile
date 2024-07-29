@@ -1,6 +1,7 @@
 FROM kalilinux/kali-rolling
 ARG NGROK_TOKEN
 ARG REGION=ap
+ARG SSH_PASS=craxid
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt upgrade -y && apt install -y \
     ssh wget unzip vim curl python3
